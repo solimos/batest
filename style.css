@@ -1,0 +1,58 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #010D38;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+/* Some colors */
+
+.color0 {
+    fill: none;
+}
+ .color1 {
+    fill: #8EABE5;
+}
+
+.color2 {
+    fill: #BCACF3;
+}
+
+.color3 {
+    fill: #FAA9B2;
+}
+
+.color4 {
+    fill: #F8FCA8;
+}
+
+.color5 {
+    fill: #B5DFC8;
+}
+
+#badge {
+    width: 50vh;
+    max-height: 50vh;
+}
+
+
+
+.circle {
+    fill: url(#multi-dots);
+}
+
+#batman {
+    fill: #010D38;
+}
